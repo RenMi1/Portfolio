@@ -16,7 +16,7 @@ Beyond research, I enjoy full-stack web development, UI/UX design, and exploring
   phone: "+63 938 205 4010",
   github: "https://github.com/yourusername",
   linkedin: "https://linkedin.com/in/yourusername",
-  resumeUrl: "/resume.pdf",
+  resumeUrl: "/resume/Loren_May_Florentino_Resume.pdf",
   profileImage: "/images/profile.jpg",
   availableForWork: true,
   yearsOfExperience: 1,
