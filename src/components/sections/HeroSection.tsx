@@ -217,7 +217,7 @@ export function HeroSection() {
                 className="relative w-72 sm:w-80 lg:w-[420px]"
               >
                 <Image
-                  src="/Loren.png"
+                  src="/loren.png"
                   alt="Loren May Florentino"
                   width={420}
                   height={560}
