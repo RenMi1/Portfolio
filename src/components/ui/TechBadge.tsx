@@ -46,17 +46,26 @@ export function TechBadge({
 
 export function TechBadgeGroup({
   badges,
+  variant = "default",
+  size = "md",
   className = "",
 }: {
   badges: (TechBadgeProps | ReactNode)[];
+  variant?: TechBadgeProps["variant"];
+  size?: TechBadgeProps["size"];
   className?: string;
 }) {
   return (
     <div className={`flex flex-wrap gap-2 ${className}`}>
       {badges.map((badge, idx) => {
-        if (typeof badge === "object" && "label" in badge) {
-          return <TechBadge key={idx} {...badge} />;
+        if (typeof badge === "string" || typeof badge === "number") {
+          return <TechBadge key={idx} label={String(badge)} variant={variant} size={size} />;
         }
+
+        if (badge && typeof badge === "object" && "label" in badge) {
+          return <TechBadge key={idx} variant={variant} size={size} {...badge} />;
+        }
+
         return <div key={idx}>{badge}</div>;
       })}
     </div>
