@@ -1,12 +1,4 @@
 import { Project } from "@/types";
-import {
-  Activity,
-  Shield,
-  Printer,
-  MapPin,
-  BookOpen,
-  Home,
-} from "lucide-react";
 
 export const projects: Project[] = [
   {
@@ -22,7 +14,6 @@ export const projects: Project[] = [
     featured: true,
     image: "",
     images: [],
-    icon: Activity,
     technologies: ["Arduino", "ESP32", "React", "Node.js", "Firebase", "C++"],
     githubUrl: "",
     liveUrl: "",
@@ -50,7 +41,6 @@ export const projects: Project[] = [
     featured: true,
     image: "",
     images: [],
-    icon: Shield,
     technologies: [
       "Python",
       "OpenCV",
@@ -85,7 +75,6 @@ export const projects: Project[] = [
     featured: true,
     image: "",
     images: [],
-    icon: Printer,
     technologies: [
       "Raspberry Pi",
       "Node.js",
@@ -120,7 +109,6 @@ export const projects: Project[] = [
     featured: false,
     image: "",
     images: [],
-    icon: MapPin,
     technologies: ["Laravel", "Vue.js", "MySQL", "Google Maps API", "Pusher"],
     githubUrl: "",
     liveUrl: "",
@@ -148,7 +136,6 @@ export const projects: Project[] = [
     featured: false,
     image: "",
     images: [],
-    icon: BookOpen,
     technologies: ["PHP", "MySQL", "Bootstrap", "jQuery", "Chart.js"],
     githubUrl: "",
     liveUrl: "",
@@ -176,7 +163,6 @@ export const projects: Project[] = [
     featured: false,
     image: "",
     images: [],
-    icon: Home,
     technologies: ["React", "Node.js", "Express", "MongoDB", "Tailwind CSS"],
     githubUrl: "",
     liveUrl: "",

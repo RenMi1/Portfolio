@@ -1,5 +1,3 @@
-import { LucideIcon } from "lucide-react";
-
 // ─── Project Types ───────────────────────────────────────────────────────────
 
 export type ProjectCategory =
@@ -21,7 +19,6 @@ export interface Project {
   featured: boolean;
   image: string;
   images: string[];
-  icon?: LucideIcon;  // ← added this
   technologies: string[];
   githubUrl?: string;
   liveUrl?: string;
